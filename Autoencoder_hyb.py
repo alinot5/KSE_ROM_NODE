@@ -1,11 +1,4 @@
-#! /home/linot/anaconda3/bin/python3
-"""
-Created on Wed Aug 14 2019
-
-Dense invariant NN with tied encoder and decoder
-
-@author: Alec
-"""
+#!/usr/bin/env python3
 
 import os
 import sys
@@ -112,8 +105,6 @@ if __name__=='__main__':
 
         # Compile model
         model.compile(loss='mse',optimizer=optimizer,metrics=['mae', 'mse'])
-
-        print(model.summary())
         
         # Train the model 
         callback = tf.keras.callbacks.LearningRateScheduler(scheduler)
