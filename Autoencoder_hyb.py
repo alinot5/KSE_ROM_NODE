@@ -157,7 +157,7 @@ if __name__=='__main__':
     # Plot the Errors for comparison
     HL=np.arange(5,11)
     plt.figure()
-    plt.semilogy(HL, MSEsig,'x',label='Sig')
+    plt.semilogy(HL, MSEsig,'x',label='NN')
     plt.semilogy(HL,MSEpca,'s',label='PCA')
     plt.legend()
     plt.xlabel(r'$d_h$')
