@@ -10,4 +10,4 @@ The training data in 'Data_Train.p' is 20000 snapshots of data separated every 2
 
 Below are two examples of the MSE vs dimension plots generated when running Autoencoder.py and Autoencoder_hyb.py, resepectively. Due to the stochastic nature of training there will be some variability trial to trial when running this code. Each script took around 4 hours to run on a 2.3 GHz Dual-Core Intel Core i5 2017 MacBook Pro.
 
-(https://user-images.githubusercontent.com/46662557/171499904-4ebfd1f8-8a88-4ba3-a201-e5bdbf5540b5.png)
+![Comparison](https://user-images.githubusercontent.com/46662557/171500127-1900641a-6911-4a16-af77-c4a7fcfc54b5.png)
