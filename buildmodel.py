@@ -60,7 +60,7 @@ def encode(N):
     K.set_floatx('float64')
     #Parameters
     hiddenin=[500,trunc]
-    actin=['relu',None]
+    actin=['sigmoid',None]
 
     # Input size
     main_input = layers.Input(shape=(N,), name='main_input')
@@ -85,7 +85,7 @@ def decode(N):
     K.set_floatx('float64')
     #Parameters
     hiddenout=[500,N]
-    actout=['relu',None]
+    actout=['sigmoid',None]
 
     # Input size
     main_input = layers.Input(shape=(trunc,), name='main_input')
