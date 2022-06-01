@@ -11,3 +11,5 @@ The training data in 'Data_Train.p' is 20000 snapshots of data separated every 2
 Below are two examples of the MSE vs dimension plots generated when running Autoencoder.py and Autoencoder_hyb.py, resepectively. Due to the stochastic nature of training there will be some variability trial to trial when running this code. Each script took around 4 hours to run on a 2.3 GHz Dual-Core Intel Core i5 2017 MacBook Pro.
 
 ![Comparison](https://user-images.githubusercontent.com/46662557/171500127-1900641a-6911-4a16-af77-c4a7fcfc54b5.png)
+
+In addition to the code for training the autoencoders, also included in this repository are trained autoencoders and neural ODEs for KSE data at domain sizes of L=22, 44, and 66 and latent dimensions of d_h=8, 18, and 28. The Traj.py code loads these models and plots short trajectories for them. 
