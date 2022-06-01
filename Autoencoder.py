@@ -85,7 +85,7 @@ if __name__=='__main__':
     # Load data
     u_train=pickle.load(open('Data_Train.p','rb'))
     u_test=pickle.load(open('Data_Test.p','rb'))
-    [M,N]=u.shape
+    [M,N]=u_train.shape
 
     u_mean=np.mean(u_train,axis=0)
     u_std=np.std(u_train,axis=0)
