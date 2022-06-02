@@ -8,7 +8,7 @@ Conda_list.txt contains a list of all the packages used in the Anaconda environm
 
 The training data in 'Data_Train.p' is 20000 snapshots of data separated every 2.5 time units and the testing data is 8000 snapshots of data separated every 2.5 time units. Each autoencoder is trained for 1000 epochs with a learning rate scheduler that drops from 0.001 to 0.0001 halfway through training. Due to the memory limitations of Github and the computational time required to run this code, this is less data and fewer epochs than what was used in https://arxiv.org/abs/2109.00060. With longer training and more data the drop in error becomes more pronounced because the autoencoder performance often tends to slowly increase at higher latent dimensions.
 
-Below are two examples of the MSE vs dimension plots generated when running Autoencoder.py and Autoencoder_hyb.py, resepectively. Due to the stochastic nature of training there will be some variability trial to trial when running this code. Each script took around 4 hours to run.
+Below are two examples of the MSE vs dimension plots generated when running Autoencoder.py and Autoencoder_hyb.py, resepectively. Due to the stochastic nature of training there will be some variability trial to trial when running this code. Autoencoder.py took ~10 hours to run on my 2.3 GHz Dual-Core Intel Core i5 MacBook Pro. While both Autoencoder.py and Autoencoder_hyb.py took ~4-5 hours to run on a Intel(R) Xeon(R) Gold 5118 CPU @ 2.30GHz.
 
 # Standard Autoencoder
 ![Comparison](https://user-images.githubusercontent.com/46662557/171500127-1900641a-6911-4a16-af77-c4a7fcfc54b5.png)
