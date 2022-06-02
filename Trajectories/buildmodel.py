@@ -1,11 +1,5 @@
-#! /opt/cluster_soft/anaconda3/bin/python3
-"""
-Created on Thu Mar 28 13:28:41 2019
+#!/usr/bin/env python3
 
-This is the architecture of the NN used in all of the trials in this folder
-
-@author: Alec
-"""
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
