@@ -2,7 +2,7 @@
 
 This repository contains code for training autoencoders on data generated from the Kuramoto-Sivashinsky Equation (KSE) at a domain size of L=22, and code for running short trajectories of the reduced order models described in https://arxiv.org/abs/2109.00060 at domain sizes of L=22, 44, and 66.
 
-The codes to run are **./Autoencoder.py, ./Autoencoder_hyb.py, ./Trajectories/Traj22.py, ./Trajectories/Traj44.py, and ./Trajectories/Traj66.py**. Running all of these codes will require many of the packages in Conda_list.txt. This file contains all of the packages in the Anaconda environment I used to validate the code (not all are necessary). Some key packages include: tensorflow, pytorch, sklearn, pandas, seaborn, numpy, scipy, and matplotlib.
+The codes to run are **./Autoencoder.py, ./Autoencoder_hyb.py, ./Trajectories/Traj22.py, ./Trajectories/Traj44.py, and ./Trajectories/Traj66.py**. Running all of these codes will require many of the packages in Conda_list.txt (not all are necessary). This file contains all of the packages in the Anaconda environment I used to validate the code. Some key packages include: tensorflow, pytorch, sklearn, pandas, seaborn, numpy, scipy, and matplotlib.
 
 In the autoenocder codes, the latent dimension of each autoencoder is varied keeping everything else the same. Then the reconstruction error on normalized test data is plotted for all of these autoencoders. A clear drop in error appears at a dimension of 8, which coincides with the expected dimension of the attractor at this domain size.
 
