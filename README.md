@@ -15,6 +15,6 @@ Below are two examples of the MSE vs dimension plots generated when running Auto
 
 
 # Hybrid Autoencoder
-![ComparisonHyb](https://user-images.githubusercontent.com/46662557/171521571-793a30cb-15d1-4845-ab85-037dd68a17ba.png)
+![ComparisonHyb](https://user-images.githubusercontent.com/46662557/171655158-29cf83f0-5c3c-4225-bcca-07082246d951.png)
 
 In addition to the code for training the autoencoders, also included in this repository are trained autoencoders and neural ODEs for KSE data at domain sizes of L=22, 44, and 66 and latent dimensions of d_h=8, 18, and 28 in the Trajectory directory.
