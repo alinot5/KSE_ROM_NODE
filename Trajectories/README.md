@@ -1,0 +1,1 @@
+This directory contains the short trajectories for domain sizes of L=22, 44, and 66 and latent dimensions of d_h=8, 18, and 28. The TrajXX.py code loads these models and plots short trajectories for them.
