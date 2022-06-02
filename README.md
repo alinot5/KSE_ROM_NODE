@@ -4,7 +4,7 @@ This repository contains code for training autoencoders on data generated from t
 
 The codes to run are **./Autoencoder.py, ./Autoencoder_hyb.py, ./Trajectories/Traj22.py, ./Trajectories/Traj44.py, and ./Trajectories/Traj66.py**. Running all of these codes will require many of the packages in Conda_list.txt (not all are necessary). This file contains all of the packages in the Anaconda environment I used to validate the code. Some key packages include: tensorflow, pytorch, sklearn, pandas, seaborn, numpy, scipy, and matplotlib.
 
-In the autoenocder codes, the latent dimension of each autoencoder is varied keeping everything else the same. Then the reconstruction error on normalized test data is plotted for all of these autoencoders. A clear drop in error appears at a dimension of 8, which coincides with the expected dimension of the attractor at this domain size.
+In the autoencoder codes, the latent dimension of each autoencoder is varied keeping everything else the same. Then the reconstruction error on normalized test data is plotted for all of these autoencoders. A clear drop in error appears at a dimension of 8, which coincides with the expected dimension of the attractor at this domain size.
 
 Autoencoder.py is a standard dense autoencoder and Autoencoder_hyb.py is the hybrid autoencoder described in https://arxiv.org/abs/2001.04263 and https://arxiv.org/abs/2109.00060. The losses for the two are different, but the mean squared error (MSE) output at the end is the same. Refer to https://arxiv.org/abs/2109.00060 or buildmodel.py for the architecture of the autoencoders.
 
