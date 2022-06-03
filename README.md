@@ -1,4 +1,4 @@
-# Data-Driven Reduced-Order Modeling of Spatiotemporal Chaos with Neural Ordinary Differential Equations
+# KSE_ROM_NODE
 
 This repository contains code for training autoencoders on data generated from the Kuramoto-Sivashinsky Equation (KSE) at a domain size of L=22, and code for running short trajectories of the reduced order models described in https://arxiv.org/abs/2109.00060 at domain sizes of L=22, 44, and 66.
 
